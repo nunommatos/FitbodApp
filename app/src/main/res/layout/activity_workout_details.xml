@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pt.nunomatos.fitbodapp.views.AnimatedViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewFlipper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryDark">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="?attr/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.14"
+        android:text="@string/message_empty_workout_history"
+        android:textColor="@color/lightGray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.14"
+        android:text="@string/message_error_loading_plot"
+        android:textColor="@color/lightGray"
+        android:textSize="14sp" />
+
+</pt.nunomatos.fitbodapp.views.AnimatedViewFlipper>

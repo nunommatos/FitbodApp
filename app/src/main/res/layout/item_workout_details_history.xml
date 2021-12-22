@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:background="?colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/historyDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:textColor="@color/lightGray"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Back squat" />
+
+    <ImageView
+        android:id="@+id/bestRepMaxIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_star" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/repMaxValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGray"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="215" />
+
+        <TextView
+            android:id="@+id/lbsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/exercise_list_lbs"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FitbodApp</string>
+
+    <string name="exercise_list_rep_max_record">"1 RM Record"</string>
+    <string name="exercise_list_lbs">"Lbs"</string>
+
+    <string name="exercise_details_history_title_label">"History"</string>
+
+    <string name="message_empty_exercises_list">"There are currently no exercises on your history"</string>
+    <string name="message_empty_workout_history">"There are no records to display"</string>
+    <string name="message_error_loading_exercises_list">"Something went wrong while loading the list of exercises. Tap to try again."</string>
+    <string name="message_error_loading_plot">"Something went wrong while creating this exercise plot. Tap to try again"</string>
+</resources>
